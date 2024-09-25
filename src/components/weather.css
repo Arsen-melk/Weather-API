@@ -1,0 +1,86 @@
+.weather {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: rgb(57, 189, 17);
+  }
+  
+  
+  .weather h1 {
+    font-size: 2rem;
+    color: rgb(255, 128, 0);
+    /* color: #007BFF; */
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .weather-info {
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  
+  .weather-info p {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e7f3ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.15rem;
+  }
+  
+  form {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+  }
+  
+  input[type="text"] {
+    padding: 10px; 
+    border: 2px solid rgb(57, 189, 17); 
+    border-radius: 4px; 
+    width: 200px; 
+    margin-right: 10px; 
+    font-size: 16px; 
+  }
+  
+  input[type="text"]:focus {
+    border-color: rgba(255, 64, 0, 0.926); 
+    outline: none; 
+  }
+  
+  input::placeholder {
+    color: rgba(57, 189, 17, 0.505); /* Change this color */
+    opacity: 1; /* Ensure placeholder is fully visible */
+  }
+
+  button {
+    padding: 10px 15px; 
+    background-color: rgba(255, 64, 0, 0.721);
+    /* background-color: #007bff;  */
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  }
+  
+  button:hover {
+    background-color: rgba(255, 64, 0, 0.926); 
+  }
+  
+
+  .cloud-icon {
+    width: 50px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Spacing around the icon */
+  }
